@@ -1,5 +1,4 @@
 # 🏦 Sistema Bancário Orientado a Objetos  
-**Porque conta bancária é fácil. Quero ver modelar comportamento.**
 
 ---
 
@@ -13,9 +12,6 @@
 ## 📌 Sobre o Projeto
 Este projeto simula o funcionamento básico de um sistema bancário utilizando **Java** com foco nos pilares de **Orientação a Objetos** e uso do **Java Collections Framework** para gerenciar objetos de forma eficiente.
 
-Não se trata apenas de criar contas.  
-Trata-se de entender **como modelar responsabilidades**.
-
 ---
 
 ## 🎯 Objetivos Técnicos
@@ -28,21 +24,8 @@ Trata-se de entender **como modelar responsabilidades**.
 ---
 
 ## 🧱 Estrutura de Classes
-├── Banco
-│ ├── gerencia lista de contas (List<Conta>)
-│
-├── Conta (abstrata)
-│ ├── atributos comuns (agência, número, saldo, titular)
-│ ├── métodos base (sacar, depositar, transferir)
-│
-├── ContaCorrente (extends Conta)
-│ └── pode ter taxas ou lógica adicional
-│
-├── ContaPoupanca (extends Conta)
-│ └── pode ter rendimento no futuro (scalável)
-│
-└── Cliente
-└── dados do titular
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1f088d78-2f14-44d1-992b-6b537c94e54d" />
+
 
 ## 🚀 Funcionalidades Implementadas
 
@@ -62,3 +45,4 @@ Trata-se de entender **como modelar responsabilidades**.
 - **Conceitos sólidos de POO**
 
 ---
+
